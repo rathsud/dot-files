@@ -1,9 +1,8 @@
-# Copyright (c) 2018, Sudhanshu Rath
+# Copyright Sudhanshu Rath, 2018.
 # All rights reserved.
 
 # Directory Mgmt
 alias mk='mkdir'
-alias mkc='mkdir $1 && cd $1'
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -la'
@@ -23,11 +22,11 @@ alias gck='git checkout'
 alias gbk='git checkout -b'
 alias dr='git checkout -- .'
 
-# Bashrc
-alias obash='sudo emacs ~/.bashrc'
+alias obash='emacs -nw ~/.bashrc'
 alias cbash='cat ~/.bashrc'
 alias sbash='. ~/.bashrc'
 
-# Misc.
+# Misc
 alias uu='uptime'
 alias ee='emacs -nw'
+source ~/.git-completion.bash
