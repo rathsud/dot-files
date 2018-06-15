@@ -28,8 +28,10 @@ alias gl="git log --graph --pretty=format:'%C(bold)%h%Creset%C(magenta)%d%Creset
 alias obash='emacs -nw ~/.bashrc'
 alias cbash='cat ~/.bashrc'
 alias sbash='. ~/.bashrc'
+alias switch='cp ~/Desktop/dot-files/.bashrc ~/.bashrc'
 
 # Misc
 alias uu='uptime'
 alias ee='emacs -nw'
 source ~/.git-completion.bash
+
